@@ -1,0 +1,371 @@
+/*   https://youtu.be/WiQ-PphwH7c */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+/************start header1-**********/
+.header-1{
+    background-color: rgb(127, 127, 244);
+    width:100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 80px;
+}
+.logo-image{
+    width:80px ;
+    padding-right: 20px;
+}
+.header-name{
+    text-decoration: none;
+    font-size:1.8em ;
+    color: black;
+    font-weight: 800;
+    
+    
+
+}
+.navigation-1 a{
+    color: black;
+    text-decoration:none ;
+    font-size: 1em;
+    font-weight: 400;
+    padding-left: 20px;
+
+}
+.navigation-1 a:hover{
+    color:rgb(244, 72, 215)
+}
+/************END header1-*********************************************/
+/************start header2-******************************************/
+.header-2{
+    background-color:white;
+    width:100%;
+    position:relative ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+.navigation-2 a{
+    color: black;
+    text-decoration:none ;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+}
+.navigation-2 a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+/************END header2-****************************************/
+/************start MAIN******************************************/
+
+section{
+    padding: 100px 200px;
+}
+.main{
+    width:100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/nlNL/Images/football-ss22-diamond-edge-pre-launch-hp-masthead-large-new-d_tcm204-866580.jpg) no-repeat;
+    background-size:cover ;
+    background-position: center;
+    
+
+}
+.main h1{
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+}
+.main p{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.main-btn{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+    display:inline-block;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 600;
+    margin-left: 130px;
+    padding: 7px 7px;
+    border-radius: 15px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: whitesmoke;
+    transform:scale(1.1);
+
+}
+/************END MAIN**********************************/
+.part1{
+    width:100%;
+    
+    background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enUS/Images/xcat-ss22-pride-Large-MH-D-d_tcm221-882888.jpg) no-repeat;
+    background-size:cover ;
+    background-position: center;
+    
+}
+.part2{
+    width:100%;
+  
+    background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/nlNL/Images/football-ss22-diamond-edge-pre-launch-glp-female-masthead-large-new-d_tcm204-866571.jpg) no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+.part3{
+    width:100%;
+   
+    background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/nlNL/Images/kids-sign-up-ss21-d_tcm204-679403.jpg) no-repeat;
+    background-size:cover ;
+    background-position: center;
+}
+
+
+.part4{
+    width:100%;
+   
+    background: url(https://www.klarna.com/assets/sites/2/2020/06/26185134/Adidas.png) no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+}
+.part5{
+    width:100%;
+    
+    background: url(https://w7.pngwing.com/pngs/618/880/png-transparent-discount-sale-sale-on-sale-sell-thumbnail.png) no-repeat;
+    background-size:cover ;
+    background-position: center;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+.titel{
+    display: flex;
+    color: blue;
+    justify-content: center;
+    font-size: 3.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    
+
+}
+.clothes{
+    background-color: white;
+    border: 1px solid black;
+    min-height: 10em;
+    width: 18em;
+    overflow:hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+.clothes:hover{
+    transform: scale(1.1);
+}
+.clothes-name{
+    padding: 5px 5px;
+}
+.image img{
+    width: 100%;
+}
+   
+
+.clothes-info{
+padding: 2px 8px;
+
+    
+}
+.price{
+    display: flex;
+    justify-content:space-between;
+    margin: 5px 5px;
+}
+.more-details {
+    color: black;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-decoration: none;
+    
+    
+}
+.more-details:hover {
+    
+    color: red;
+
+}
+.sale{
+    background-color: rgb(255 60 0);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1.4em;
+    font-weight: 500;
+   
+}
+ .old--price{
+     text-decoration: line-through;
+     font-size: 1.1em;
+     font-weight: 400;
+     color: red;
+ }
+ 
+ 
+ .footer{
+     background-color: rgb(51, 51, 51);
+    width:100%;
+    margin-top: 150px;
+    padding: 60px 50px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+     
+ }
+ .footer div{
+     text-align:center;
+     
+     
+
+ }
+ .footer div h3{
+     font-weight: 400;
+     margin-bottom: 30px;
+     letter-spacing: 1px;
+   color:blue;
+ }
+.image-footer{
+    width: 15px;
+    height: 11px;
+    margin-right: 8px;
+ 
+ }
+.footer span{
+  color:blue;
+  letter-spacing: 1px;
+   font-size:1.2em;
+}
+
+ .col-2 a{
+     display: block;
+     text-decoration: none;
+     font-weight: 400;
+     margin-bottom: 20px;
+     color: white;
+ }
+ .social-icons a{
+     color: white;
+     padding-top: 20px;
+     padding-left: 20px;
+     
+ }
+
+ .col-2 a:hover{
+     color:yellow;
+    
+ }
+.social-icons a:hover{
+  color: blue;
+}
+ 
+    
+
+ 
+     
+ 
+ 
+
+ @media(max-width:1023px)
+ {
+     .header-1{
+         padding: 12px 20px;
+        }
+     .header-2{
+         padding: 5px 10px;
+        }
+     .navigation-1{
+         padding-left: 5px ;
+        }
+
+ .navigation-2{
+     padding-left: 5px;
+    }
+    
+    
+ .main h1{
+     font-size: 1.2em;
+font-weight: 500;
+
+}
+.main p{
+    font-size: 1.1em;
+    font-weight: 300;
+    margin-bottom: 8px;
+   
+
+}
+.main-btn{font-size: 1em;
+font-weight: 400;
+margin-left: 70px;
+}
+.content{
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+   
+    
+}
+.footer{
+    padding: 20px 15px;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+ 
+ }
+ @media(max-width:641px){
+    .navigation-1{
+        padding-left: 5px ;
+       }
+
+.navigation-2{
+    padding-left: 5px;
+   }
+
+    .content{
+        align-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+ }
+ 
+ 
+
